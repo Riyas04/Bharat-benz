@@ -1,0 +1,330 @@
+*{
+    margin: 0;
+}
+body{
+    overflow-x: hidden;
+}
+header{
+    background-color:#a70e13;
+    height: 100px;
+    width: 100%;
+    position: fixed;
+}
+.nav-header{
+    padding-top: 7px;
+    margin-left: 100px;
+    color: white;
+    font-size: 12px;
+}
+.rights{
+    margin-left: 10px;
+}
+
+#Ser{
+    margin-left: 5px;
+    color:#FFCC49;
+    font-weight: 500px;
+}
+.right-nav{
+    margin-left: 350px;
+}
+.img{
+    padding: 20px;
+    margin-left: 80px;
+}
+.container{
+    width: 100%;
+    height: 80px;
+    display: flex; 
+    position: fixed;
+    background-color: white;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+.right-header{
+    padding-top: 20px;
+    margin-left: 200px;
+
+}
+.hindi{
+    background-color: black;
+    color: white;
+    margin-left: 20px;
+    
+}
+.right-head{
+    margin-left: 20px;
+}
+.btn{
+    background: #a70e13;
+    border: none;
+    color: white;
+    padding: 16px 24px;
+    font-size: 14px;
+    font-weight: 700;
+}
+/* #btn{
+    background-color: #a70e13;
+    width: 100px;
+    z-index: 999;
+} */
+.section-container{
+    width:100%;
+    height: 500px;
+    background-image: url(images/main_1585664346\ \(1\).webp);
+    /* padding-top: 300px; */
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position:0 100px;
+}
+.sectionB{
+    background-color: black;
+    height: 350px;
+    width: 100%;
+    color: #fff;
+}
+.sectionB h2{
+    font-family: 'gothic725blackbt2', Arial, Helvetica, sans-serif;
+    padding-top: 25px;
+    padding-bottom: 10px;
+    font-size: 40px;
+    margin-left: 150px;
+
+}
+.sectionB p{
+    font-family: 'GOTH720I_0', Arial, Helvetica, sans-serif;    font-size: 20px;
+    line-height: 30px;
+    margin-left: 150px;
+    margin-bottom: 20px;
+}
+.sectionB h3{
+    font-family: 'GOTH720I_0', Arial, Helvetica, sans-serif;    font-size: 20px;
+    font-size: 30px;
+    padding-bottom: 20px;
+    margin-left: 150px;
+    margin-top: 20px;
+}
+.sectionB button{
+    background-color: #a70e13;
+    color: #fff;
+    font-size: 20px;
+    padding: 15px 20px;
+    border-radius: 5px;
+    margin-left: 150px;
+}
+.tech{
+    width: 100%;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+}
+.tech h2{
+    margin-left: 150px;
+    font-family: 'gothic725blackbt2', Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    line-height: 100%;
+    margin-top: 80px;
+    padding-bottom: 30px;
+}
+.tech p{
+    margin-left: 150px;
+    font-family: 'gothic725blackbt2', Arial, Helvetica, sans-serif;
+    line-height: 30px;
+
+}
+.main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 80%;
+}
+.main h1{
+    font-size: 100px;
+    color: grey;
+    margin-left: 140px;
+}
+.main h1:hover{
+    color:#a70e13;
+}
+.main img{
+    margin-left: 100px;
+}
+.btn-large{
+    color: white;
+    background-color: #a70e13;
+    font-weight: 700;
+    border: none;
+    border-radius: 5px;
+    width: 300px;
+    height: 50px;
+    font-size: 20px;
+    margin-left: 250px;
+    margin-top: 20px;
+}
+.info{
+    width: 100%;
+    height: 300px;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin-top: 50px;
+    
+}
+.info h2{
+    font-size: 40px;
+    line-height: 100%;
+    padding-bottom: 7px;
+    font-family: 'gothic725blackbt2', Arial, Helvetica, sans-serif;
+    margin-left: 150px;
+    padding-top: 30px;
+}
+.text{
+    margin-left: 150px;
+    font-family: 'gothic725blackbt2', Arial, Helvetica, sans-serif;
+    margin-top: 50px;
+    font-size: 40px;
+    line-height: 100%;
+}
+.works{
+    margin-left: 100px;
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.works p{
+    font-size: 19px;
+}
+.works button{
+    font-size: 18px;
+    margin-top: 28px;
+    color: white;
+    background-color: #a70e13;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    padding: 15px 25px;
+    border: none;
+}
+.imgSize{
+    width: 326px;
+    height: 307px;
+    border-radius: 10px;
+}
+.exchange{
+    width: 100%;
+    height: 250px;
+    background-color: black;
+    margin-top: 50px;
+    color: white;
+    
+}
+.exchange h2{
+    font-family: 'gothic725blackbt2', Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    line-height: 100%;
+    margin-left: 150px;
+    padding-top: 40px;
+    margin-bottom: 30px;
+}
+label{
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 100px;
+}
+.choose{
+    padding: 15px 35px;
+    margin-top: 40px;
+    background-color: #a70e13;
+    font-weight: 700;
+    color: white;
+    margin-left: 150px;
+    border-radius: 8px;
+}
+.grid{
+    display: grid;
+    width: 80%;
+    grid-template-columns: 1fr 1fr;
+}
+.test{
+    margin-left: 150px;
+    margin-top: 50px;
+}
+.test h2{
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 38px;
+}
+.test img{
+    border-radius: 10px;
+    margin-bottom: 20px;
+    width: 440px;
+    height: 295px;
+}
+.test p{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.test button{
+    background-color: #a70e13;
+    border: none;
+    padding: 15px 35px;
+    color: white;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.main-footer{
+    width: 100%;
+    height: 180px;
+    background-color: black;
+    color: white;
+    margin-top: 50px;
+    float: left;
+}
+.main-footer h2{
+    margin-left: 600px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.main-footer p{
+    color: grey;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.info button{
+    padding: 15px 20px;
+    background-color: #a70e13;
+    color: white;
+    border-radius: 6px;
+    font-weight: 700;
+    margin-top: 50px;
+}
+.drop
+{
+    width: 200px;
+    height: 50px;
+    background-color: black;
+    color: #fff;
+    border-bottom: #808080 2px solid;
+    border: 0;
+    box-shadow: rgba(255, 255, 255, 0.979) 0px 1px 0px;
+    
+}
+.drop:focus{
+    outline: none;
+}
+
+select{
+    margin-left: 150px;
+}
+.whatsapp{
+    width: 60px;
+    height: 60px;
+    border-radius: 70px;
+   
+    cursor: pointer; 
+}
+.whatsapp img{
+    width: 60px;
+    height: 60px;
+   
+}
